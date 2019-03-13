@@ -19,4 +19,4 @@ The trimmed MSA referred to above was used to generate a maximum likelihood (ML)
 ```
 RAxML_bestTree.alcorrect_linsi190_NJ
 ```
-We recommend *JalView* and *iTOL* as particularly good tools for the visualisation of phylogenies.
+We recommend *FigTree* and *iTOL* as particularly good tools for the visualisation of phylogenies.
