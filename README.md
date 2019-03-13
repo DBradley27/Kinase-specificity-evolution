@@ -37,7 +37,7 @@ Posterior probabilities for every alignment site and every ancestral node were o
 ```
 rst
 ```
-This is a difficult file to parse. We provide as an '.csv' file the predicted amino acid for every site and every *Family* and *Subfamily* tested. We also include in this file the posterior probabilities for the most likely amino acid at each site.
+This is a difficult file to parse. We provide as an '.csv' file the predicted amino acid for every site of every *Family* and *Subfamily* tested. We also include in this file the posterior probabilities for the most likely amino acid at each site:
 
 
 We include here the R code used for parsing to enable the retrieval of other posterior probabilities of interest (second most likely amino acid, third most likely amino acid, etc.)  
