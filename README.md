@@ -46,7 +46,7 @@ The predicted sequences for every ancestral node in the phylogeny is also given 
 ```
 ancestral_seq.fa
 ```
-We include here the R code used for parsing to enable the retrieval of other posterior probabilities of interest (second most likely amino acid, third most likely amino acid, etc.). This can be achieved using a very simple custom *R* function called *anc_node query()*:
+We also include here a very simple custom *R* function called *anc_node query()* that can be used to parse the 'rst' file and extract posterior probabilities for any site and node of interest:
 ```
 anc_node_query.R
 ```
