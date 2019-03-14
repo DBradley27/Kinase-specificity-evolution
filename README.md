@@ -33,7 +33,7 @@ opisthokont_alcorrect_midpoint_NJstart.tre
 ```
 It is important to note that this phylogeny does **not** contain the correct branch lengths that were produced by RAxML.
 
-Posterior probabilities for every alignment site and every ancestral node were outputted by *CodeML* in a file called 'rst'. Please follow the link to download the file (**warning: file size os 1.2 GB**):
+Posterior probabilities for every alignment site and every ancestral node were outputted by *CodeML* in a file called 'rst'. Please follow the link to download the file (**warning: file size is 1.2 GB**):
 ```
 https://drive.google.com/open?id=1CrD1AWOBcxOIoUy_p1bH730Z7Hd0aJD4
 ```
@@ -50,7 +50,23 @@ We also include here a very simple custom *R* function called *anc_node query()*
 ```
 anc_node_query.R
 ```
+## Calculation of divergence scores and mapping to protein kinase structures
 
-
+The divergence scores calculated for every *Family* and *Subfamily* tested is present in the following '.csv' files:
+```
+tested
+```
+The results of this phylogenetic analysis were then mapped to the 3D structure of the protein kinase (as presented in Figure 2). The correspondence of the kinase MSA positions to kinase domain positions, and the kinase domain positions to the protein kinase A structural numbering, is given in the following file:
+```
+tested
+```
+The R code used for the structural mapping and subsequent analysis is present in the following file:
+```
+test
+```
+To make the underlying method more accessible, all steps stated above (sequence alignment -> tree generation -> ancestral sequence reconstruction -> divergence score calculation -> 3D mapping) have been repeated for a simplified example (PLK vs. AUR) in the following markdown file:
+```
+test
+```
 
 
