@@ -37,16 +37,16 @@ Posterior probabilities for every alignment site and every ancestral node were o
 ```
 rst
 ```
-We provide as an '.csv' file the predicted amino acid for every site of every *Family* and *Subfamily* tested. We also include in this file the posterior probabilities for the most likely amino acid at each site:
+We provide as an '.csv' file the predicted amino acids for every ancestral *Family* and *Subfamily* node tested . This includes the posterior probabilities for the most likely amino acid at each site:
 ```
 Family_posterior_probabilities_corrected.csv
 Subfamily_posterior_probabilities_corrected.csv
 ```
-The predicted sequences for every ancestral node is also given in the following FASTA file:
+The predicted sequences for every ancestral node in the phylogeny is also given in the following FASTA file:
 ```
 ancestral_seq.fa
 ```
-We include here the R code used for parsing to enable the retrieval of other posterior probabilities of interest (second most likely amino acid, third most likely amino acid, etc.). This is achieved using a very simple custom *R* function called *anc_node query()*:
+We include here the R code used for parsing to enable the retrieval of other posterior probabilities of interest (second most likely amino acid, third most likely amino acid, etc.). This can be achieved using a very simple custom *R* function called *anc_node query()*:
 ```
 anc_node_query.R
 ```
