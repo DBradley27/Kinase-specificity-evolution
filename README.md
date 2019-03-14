@@ -58,7 +58,7 @@ tested
 ```
 The results of this phylogenetic analysis were then mapped to the 3D structure of the protein kinase (as presented in Figure 2). The correspondence of the kinase MSA positions to kinase domain positions, and the kinase domain positions to the protein kinase A structural numbering, is given in the following file:
 ```
-tested
+Bradley_kinase_mapping.csv
 ```
 To make the underlying method wmore accessible, all steps stated above (sequence alignment -> tree generation -> ancestral sequence reconstruction -> divergence score calculation -> 3D mapping) have been repeated in the same way for a simplified example (PLK vs. AUR kinases) in the following markdown file:
 ```
