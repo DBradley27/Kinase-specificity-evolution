@@ -60,9 +60,12 @@ The results of this phylogenetic analysis were then mapped to the 3D structure o
 ```
 tested
 ```
-To make the underlying method more accessible, all steps stated above (sequence alignment -> tree generation -> ancestral sequence reconstruction -> divergence score calculation -> 3D mapping) have been repeated for a simplified example (PLK vs. AUR kinases) in the following markdown file and associated R script:
+To make the underlying method wmore accessible, all steps stated above (sequence alignment -> tree generation -> ancestral sequence reconstruction -> divergence score calculation -> 3D mapping) have been repeated in the same way for a simplified example (PLK vs. AUR kinases) in the following markdown file:
 ```
 test
 ```
-
+The R code used for the analysis of this 'toy' example is provided in the following file:
+```
+test
+```
 
