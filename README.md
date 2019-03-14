@@ -33,9 +33,9 @@ opisthokont_alcorrect_midpoint_NJstart.tre
 ```
 It is important to note that this phylogeny does **not** contain the correct branch lengths that were produced by RAxML.
 
-Posterior probabilities for every alignment site and every ancestral node were outputted by *CodeML* in the following file:
+Posterior probabilities for every alignment site and every ancestral node were outputted by *CodeML* in a file called 'rst'. Please follow the link to download the file (**warning: file size os 1.2 GB**):
 ```
-rst
+https://drive.google.com/open?id=1CrD1AWOBcxOIoUy_p1bH730Z7Hd0aJD4
 ```
 We provide as an '.csv' file the predicted amino acids for every ancestral *Family* and *Subfamily* node tested . This includes the posterior probabilities for the most likely amino acid at each site:
 ```
