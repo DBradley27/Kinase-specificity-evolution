@@ -52,20 +52,21 @@ anc_node_query.R
 ```
 ## Calculation of divergence scores and mapping to protein kinase structures
 
-The divergence scores calculated for every *Family* and *Subfamily* tested is present in the following '.csv' files:
+The divergence scores calculated for every *Family* and *Subfamily* tested are present in the following '.csv' files:
 ```
-tested
+Family_scores.csv
+Subfamily_scores.csv
 ```
 The results of this phylogenetic analysis were then mapped to the 3D structure of the protein kinase (as presented in Figure 2). The correspondence of the kinase MSA positions to kinase domain positions, and the kinase domain positions to the protein kinase A structural numbering, is given in the following file:
 ```
 Bradley_kinase_mapping.csv
 ```
-To make the underlying method wmore accessible, all steps stated above (sequence alignment -> tree generation -> ancestral sequence reconstruction -> divergence score calculation -> 3D mapping) have been repeated in the same way for a simplified example (PLK vs. AUR kinases) in the following markdown file:
+To make the underlying method wmore accessible, all steps stated above (sequence alignment -> tree generation -> ancestral sequence reconstruction -> divergence score calculation -> 3D mapping) have been repeated in the same way for a simplified example (PLK vs. AUR kinases) in the following file:
 ```
-test
+Kinase_toy_example.pdf
 ```
-The R code used for the analysis of this 'toy' example is provided in the following file:
+The R code used for the analysis of this 'toy' example is provided in the following markdown file:
 ```
-test
+Kinase_toy_example.Rmd
 ```
 
