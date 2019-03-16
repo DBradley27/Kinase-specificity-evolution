@@ -70,3 +70,18 @@ The R code used for the analysis of this 'toy' example is provided in the follow
 Kinase_toy_example.Rmd
 ```
 
+## Evolutionry analysis of phosphorylation data
+
+All phosphorylation sites used for the evolutionary analysis of phosphorylation motifs are present in the following files:
+
+```
+fg_list_publication.rds
+fg_list_publication_prokaryotic.rds
+```
+Phosphorylation motifs were identified in each species using an R-based implementation of the *motif-x* method. For all motifs passing certain criteria (specified in the manuscript), binomial p-values were used to calculate the extent of the phosphomotif enrichment relative to a background set of randomly shuffled phosphorylation peptides. To clearly illustrate the methods used, this analysis has been repeated for a reduced dataset containing only four species (*Plasmodium falciparum*, *Plasmodium berghei*, *Toxoplasma gondii*, and *Tetrahymena thermophila*). All R code used for this analysis is present in the following two documents:
+```
+Phosphomotifs_toy_example.Rmd
+Phosphomotifs_toy_example.pdf
+```
+
+
