@@ -1,13 +1,13 @@
 # Kinase-specificity-evolution
-Files relating to the *Bradley and Beltrao, 2018* bioRxiv manuscript about the evolution of protein kinase substrate recognition have been deposited here.
+Files relating to the *Bradley and Beltrao, 2018* bioRxiv manuscript (about the evolution of protein kinase substrate recognition) have been deposited here.
 
 ## Protein kinase sequence alignment
 
-A FASTA file of protein kinase sequences is given in the following file:
+A list of protein kinase sequences is given in the following FASTA file:
 ```
 kinase_domain_opisthokont.fa
 ```
-This file is essentially a compilation of all kinase domain sequences found in *KinBase* for its 9 animal and fungal species. The MSA of these kinase domain sequences is present in the following file:
+This file is a compilation of all kinase domain sequences found in *KinBase* for its 9 animal and fungal species. The MSA of these kinase domain sequences is given in the following file:
 ```
 opistho_linsi_alcorrect_trim80_filter190_mod.fa
 ```
@@ -15,7 +15,7 @@ The name of each sequence has been modified to include the Group/Family/Subfamil
 
 ## Protein kinase global phylogeny
 
-The trimmed MSA referred to above was used to generate a maximum likelihood (ML) phylogeny of the 9 opisthokont kinomes that were used for this analysis. The ML phylogeny was generated using the RAxML tool; amino acids substitutions were modelled using the LG substitution matrix and a gamma model to account for the heterogeneity of rates between sites. A neighbour joining (NJ) generated with the *ape* package in *R* was used as the starting tree. The resulting phylogeny is present in the following file:
+The trimmed MSA referred to above was used to generate a maximum likelihood (ML) phylogeny of the 9 opisthokont kinomes that were used for this analysis. The ML phylogeny was generated using the RAxML tool; amino acids substitutions were modelled using the LG substitution matrix and a gamma model to account for the heterogeneity of rates between sites. A neighbour joining (NJ) phylogeny generated with the *ape* package in *R* was used as the starting tree. The resulting ML phylogeny is present in the following file:
 ```
 RAxML_bestTree.alcorrect_linsi190_NJ
 ```
@@ -46,7 +46,7 @@ The predicted sequences for every ancestral node in the phylogeny is also given 
 ```
 ancestral_seq.fa
 ```
-We also include here a very simple custom *R* function called *anc_node query()* that can be used to parse the 'rst' file and extract posterior probabilities for any site and node of interest:
+We also include here a very simple custom *R* function called *anc_node query()* that can be used to parse the 'rst' file and extract posterior probabilities for any node-site combination of interest:
 ```
 anc_node_query.R
 ```
@@ -61,7 +61,7 @@ The results of this phylogenetic analysis were then mapped to the 3D structure o
 ```
 Bradley_kinase_mapping.csv
 ```
-To make the underlying method wmore accessible, all steps stated above (sequence alignment -> tree generation -> ancestral sequence reconstruction -> divergence score calculation -> 3D mapping) have been repeated in the same way for a simplified example (PKA vs. PKG kinases) in the following file:
+To make the underlying method more accessible, all steps stated above (sequence alignment -> tree generation -> ancestral sequence reconstruction -> divergence score calculation -> 3D mapping) have been repeated in the same way for a simplified example (PKA vs. PKG kinases) in the following file:
 ```
 Kinase_toy_example.pdf
 ```
