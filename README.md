@@ -7,7 +7,7 @@ A FASTA file of protein kinase sequences is given in the following file:
 ```
 kinase_domain_opisthokont.fa
 ```
-This file is essentially a compilation of all kinase domain sequences found in *KinBase* for its 9 animal and fungal species. The MSA of these kinase domain sequences is represented in the following file:
+This file is essentially a compilation of all kinase domain sequences found in *KinBase* for its 9 animal and fungal species. The MSA of these kinase domain sequences is present in the following file:
 ```
 opistho_linsi_alcorrect_trim80_filter190_mod.fa
 ```
@@ -15,7 +15,7 @@ The name of each sequence has been modified to include the Group/Family/Subfamil
 
 ## Protein kinase global phylogeny
 
-The trimmed MSA referred to above was used to generate a maximum likelihood (ML) phylogeny of the 9 opisthokont kinomes that were used for this analysis. The ML phylogeny was generated using the RAxML tool; amino acids substitutions were modelled using the LG substitution matrix and a gamma model to account for the heterogeneity of rates between sites. A neighbour joining (NJ) generated with the *ape* package in *R* was used as the starting tree. The resulting phylogeny is found in the following file:
+The trimmed MSA referred to above was used to generate a maximum likelihood (ML) phylogeny of the 9 opisthokont kinomes that were used for this analysis. The ML phylogeny was generated using the RAxML tool; amino acids substitutions were modelled using the LG substitution matrix and a gamma model to account for the heterogeneity of rates between sites. A neighbour joining (NJ) generated with the *ape* package in *R* was used as the starting tree. The resulting phylogeny is present in the following file:
 ```
 RAxML_bestTree.alcorrect_linsi190_NJ
 ```
@@ -23,7 +23,7 @@ We recommend *FigTree* and *iTOL* as particularly good tools for the visualisati
 
 ## Protein kinase ancestral sequence reconstruction
 
-Ancestral sequences were then reconstructed for every node in the global phylogeny. This was achieved using the *CodeML* program of the *PAML* package. As with the phylogenetic reconstruction, an LG substitution matrix and a gamma model were employed. No molecular clock was assumed, and four discrete categories were specificied for the gamma model. The *CodeML* configuration file used for this analysis has the following name:
+Ancestral sequences were then reconstructed for every node in the global phylogeny. This was achieved using the *CodeML* program of the *PAML* package. As with the phylogenetic reconstruction, an LG substitution matrix and a gamma model were employed. No molecular clock was assumed, and four discrete categories were specifiied for the gamma model. The *CodeML* configuration file used for this analysis has the following name:
 ```
 bradley_opistho_alcorrect_NJstarter.tcl
 ```
@@ -61,7 +61,7 @@ The results of this phylogenetic analysis were then mapped to the 3D structure o
 ```
 Bradley_kinase_mapping.csv
 ```
-To make the underlying method wmore accessible, all steps stated above (sequence alignment -> tree generation -> ancestral sequence reconstruction -> divergence score calculation -> 3D mapping) have been repeated in the same way for a simplified example (PLK vs. AUR kinases) in the following file:
+To make the underlying method wmore accessible, all steps stated above (sequence alignment -> tree generation -> ancestral sequence reconstruction -> divergence score calculation -> 3D mapping) have been repeated in the same way for a simplified example (PKA vs. PKG kinases) in the following file:
 ```
 Kinase_toy_example.pdf
 ```
