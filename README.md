@@ -1,5 +1,5 @@
 # Kinase-specificity-evolution
-A repository of files relating to the *Bradley and Beltrao, 2018* bioRxiv manuscript about the evolution of protein kinase substrate recognition.
+Files relating to the *Bradley and Beltrao, 2018* bioRxiv manuscript about the evolution of protein kinase substrate recognition have been deposited here.
 
 ## Protein kinase sequence alignment
 
