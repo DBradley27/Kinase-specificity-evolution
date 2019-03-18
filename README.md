@@ -65,11 +65,11 @@ Bradley_kinase_mapping.csv
 
 To make the underlying method more accessible, all steps stated above (sequence alignment -> tree generation -> ancestral sequence reconstruction -> divergence score calculation -> 3D mapping) have been repeated in the same way for a simplified example (PKA vs. PKG kinases) in the following file:
 ```
-Kinase_toy_example.pdf
+Kinase_analysis_example.pdf
 ```
-The R code used for the analysis of this 'toy' example is provided in the following markdown file:
+The R code used for the analysis of this PKA/PKG example is provided in the following markdown file:
 ```
-Kinase_toy_example.Rmd
+Kinase_analysis_example.Rmd
 ```
 
 ## Evolutionry analysis of phosphorylation data
@@ -82,8 +82,8 @@ fg_list_publication_prokaryotic.rds
 ```
 Phosphorylation motifs were identified in each species using an R-based implementation of the *motif-x* method. For all motifs passing certain criteria (specified in the manuscript), binomial p-values were used to calculate the extent of the phosphomotif enrichment relative to a background set of randomly shuffled phosphorylation peptides. To clearly illustrate the methods used, this analysis has been repeated for a reduced dataset containing only four species (*Plasmodium falciparum*, *Plasmodium berghei*, *Toxoplasma gondii*, and *Tetrahymena thermophila*). All R code used for this analysis is present in the following two documents:
 ```
-Phosphomotifs_toy_example.Rmd
-Phosphomotifs_toy_example.pdf
+Phosphomotifs_analysis_example.Rmd
+Phosphomotifs_analysis_example.pdf
 ```
 
 
