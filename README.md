@@ -61,6 +61,8 @@ The results of this phylogenetic analysis were then mapped to the 3D structure o
 ```
 Bradley_kinase_mapping.csv
 ```
+'-' positions in the 'PRKACA_Hs_no.' column represent deletions in the human PRKACA sequence relative to the rest of the MSA. Conversely, '-' positions in the 'pkafm_kin_no' column represent insertions in the human PRKACA sequence relative to the protein kinase domain. Discontinuities in 'PRKACA_Hs_no.' and/or 'pkafm_kin_no' numbering represent PRKACA positions and/or kinase domain positions that were removed from the trimmed alignment. 
+
 To make the underlying method more accessible, all steps stated above (sequence alignment -> tree generation -> ancestral sequence reconstruction -> divergence score calculation -> 3D mapping) have been repeated in the same way for a simplified example (PKA vs. PKG kinases) in the following file:
 ```
 Kinase_toy_example.pdf
