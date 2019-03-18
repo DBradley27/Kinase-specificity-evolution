@@ -1,5 +1,5 @@
 ---
-title: "Kinase_divergence_toy_example"
+title: "Kinase_divergence_example"
 author: "David Bradley"
 date: "15 March 2019"
 output:
@@ -23,10 +23,10 @@ library(ape)
 setwd("~/Documents/Work/Post-PhD/Manuscript_2_revisions/Kinase_toy_example")
 ```
 
-To illustrate the methods given in the manuscript, we present here all of the code for a 'toy' example wherein a simplified phylogeny of AKT, PKG, and PKA kinases has been used to identify all residues in the PKA kinase domain that are responsible for its divergence from PKG. The kinase phylogeny is given below (zoom-in to see the node labels):
+To illustrate the methods given in the manuscript, we present here all of the code for an example analysis wherein a simplified phylogeny of AKT, PKG, and PKA kinases has been used to identify all residues in the PKA kinase domain that are responsible for its divergence from PKG. The kinase phylogeny is given below (zoom-in to see the node labels):
 
 ```{r, out.width = "400px",echo=FALSE}
-knitr::include_graphics("toy_kinase_phylogeny.pdf", auto_pdf=FALSE)
+knitr::include_graphics("PKA_PKG_kinase_phylogeny.pdf", auto_pdf=FALSE)
 ```
 
 
@@ -40,13 +40,13 @@ fas <- read.fasta('PKA_PKG_AKT_named_PRKACA_al_trim_filter.fa')
 
 # Read in the tree with ancestral nodes annotated by codeml
 
-tree <- read.tree('kinase_toy_codeml_annotated.tre')
+tree <- read.tree('kinase_example_codeml_annotated.tre')
 
 tips <- tree$tip.label
 nodes <- tree$node.label
 
 # Read in the 'rst' file containg the ancestral posterior probabilities
-x <- readLines('rst_toy')
+x <- readLines('rst_example')
 
 ```
 
@@ -360,7 +360,7 @@ as.numeric(names(noneg[order(scorevec,decreasing=TRUE)[1:5]]))-1
 
 Now map to PDB:1atp using pyMOL:
 
-```{r,echo=FALSE,out.width = "300px",include=TRUE}
-knitr::include_graphics("toy_kinase_crop.png", auto_pdf=FALSE)
+```{r,echo=FALSE,out.width = "200px",include=TRUE}
+knitr::include_graphics("example_kinase_crop.png", auto_pdf=FALSE)
 ```
 
