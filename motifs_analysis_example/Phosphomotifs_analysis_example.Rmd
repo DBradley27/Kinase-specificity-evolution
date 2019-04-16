@@ -77,7 +77,7 @@ print(mot_list[1])
 
 ```
 
-For this reduced example, let us consider only those motifs identified in at least three of the four species
+As explained in the manuscript, for full analysis, we are only interested in 'high-confidence' phosphomotifs that show consistent evidence of enrichment within a clade. In this example, we therefore elect only those motifs found to be enriched in at least 3 of the species examined: 
 
 ```{r,echo=TRUE,include=TRUE}
 # Tally the motifs from each species
