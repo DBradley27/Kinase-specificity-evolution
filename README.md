@@ -78,7 +78,7 @@ kinase_analysis_example
 ```
 
 
-## Evolutionry analysis of phosphorylation data
+## Evolutionary analysis of phosphorylation data
 
 All phosphorylation sites used for the evolutionary analysis of phosphorylation motifs are present in the following files:
 
