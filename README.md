@@ -72,6 +72,12 @@ The R code used for the analysis of this PKA/PKG example is provided in the foll
 Kinase_analysis_example.Rmd
 ```
 
+These files are present in the following directory:
+```
+kinase_analysis_example
+```
+
+
 ## Evolutionry analysis of phosphorylation data
 
 All phosphorylation sites used for the evolutionary analysis of phosphorylation motifs are present in the following files:
@@ -86,4 +92,8 @@ Phosphomotifs_analysis_example.Rmd
 Phosphomotifs_analysis_example.pdf
 ```
 
+These files are present in the following directory:
+```
+motifs_analysis_example
+```
 
